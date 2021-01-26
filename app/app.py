@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    url = "http://thefirstcontainer:8765/"
+    url = "http://kuku:8080/"
     x = requests.get(url)
     return "maya ----==== " + str(x.text) + " ====----"
 
